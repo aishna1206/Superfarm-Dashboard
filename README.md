@@ -1,54 +1,37 @@
-# React + TypeScript + Vite
+# SuperFarm Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **smart agriculture analytics dashboard** built with **React.js** and **Recharts**, simulating real-world farming data to visualize key environmental and crop metrics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚜 Project Overview
 
-## Expanding the ESLint configuration
+SuperFarm Dashboard is designed to provide farmers and agricultural analysts with insightful visualizations of vital farm data, such as temperature trends, soil moisture levels, crop yields, and rainfall patterns. The dashboard parses local static JSON data and renders dynamic, interactive charts to help monitor and optimize farming operations.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📊 Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Dynamic Data Visualization:**  
+  - Line chart for temperature trends  
+  - Bar chart for crop yields  
+  - Area chart for soil moisture  
+  - Rainfall visualization with line/bar chart  
+- **Interactive Elements:** Tooltips, legends, and axes for enhanced user experience.
+- **Local Data Handling:** Uses static JSON data imported directly into the React app — no backend required.
+- **Clean and Modular Code:** Built with React functional components and hooks for maintainability and scalability.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🛠️ Technologies Used
+
+- **React.js** — Frontend UI library  
+- **Recharts** — Charting and data visualization  
+- **CSS Flexbox/Grid** — Responsive layout and styling  
+- **Local JSON Data** — Simulated smart agriculture dataset  
+
+---
+
+
+

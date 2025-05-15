@@ -1,0 +1,100 @@
+[
+  {
+    "date": "2024-01-01",
+    "temperature": 15,
+    "soil_moisture": 60,
+    "crop_yield": 200,
+    "rainfall": 5
+  },
+  {
+    "date": "2024-01-02",
+    "temperature": 16,
+    "soil_moisture": 58,
+    "crop_yield": 210,
+    "rainfall": 2
+  },
+  {
+    "date": "2024-01-03",
+    "temperature": 14,
+    "soil_moisture": 62,
+    "crop_yield": 190,
+    "rainfall": 8
+  },
+  {
+    "date": "2024-01-04",
+    "temperature": 17,
+    "soil_moisture": 55,
+    "crop_yield": 220,
+    "rainfall": 0
+  },
+  {
+    "date": "2024-01-05",
+    "temperature": 18,
+    "soil_moisture": 53,
+    "crop_yield": 230,
+    "rainfall": 1
+  },
+  {
+    "date": "2024-01-06",
+    "temperature": 16,
+    "soil_moisture": 57,
+    "crop_yield": 205,
+    "rainfall": 3
+  },
+  {
+    "date": "2024-01-07",
+    "temperature": 15,
+    "soil_moisture": 60,
+    "crop_yield": 195,
+    "rainfall": 6
+  },
+  {
+    "date": "2024-01-15",
+    "temperature": 19,
+    "soil_moisture": 50,
+    "crop_yield": 250,
+    "rainfall": 0
+  },
+  {
+    "date": "2024-01-16",
+    "temperature": 20,
+    "soil_moisture": 48,
+    "crop_yield": 260,
+    "rainfall": 0
+  },
+  {
+    "date": "2024-01-17",
+    "temperature": 18,
+    "soil_moisture": 52,
+    "crop_yield": 240,
+    "rainfall": 2
+  },
+  {
+    "date": "2024-01-18",
+    "temperature": 21,
+    "soil_moisture": 45,
+    "crop_yield": 270,
+    "rainfall": 0
+  },
+  {
+    "date": "2024-01-19",
+    "temperature": 22,
+    "soil_moisture": 43,
+    "crop_yield": 280,
+    "rainfall": 0
+  },
+  {
+    "date": "2024-01-20",
+    "temperature": 20,
+    "soil_moisture": 47,
+    "crop_yield": 255,
+    "rainfall": 1
+  },
+  {
+    "date": "2024-01-21",
+    "temperature": 19,
+    "soil_moisture": 50,
+    "crop_yield": 245,
+    "rainfall": 4
+  }
+]

@@ -1,0 +1,198 @@
+/* General App Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+#root {
+  max-width: 100%; /* Changed from 1280px to allow full width */
+  margin: 0 auto;
+  padding: 0; /* Removed default padding */
+  text-align: left; /* Changed from center */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Header Styles */
+/* Header styles are inline in Header.tsx, but you can move them here if preferred */
+
+/* Dashboard Specific Styles */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Stats Container Styles */
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.stat-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.stat-box h4 {
+  margin-top: 0;
+  color: #555;
+  font-size: 1em;
+}
+
+.stat-box p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #282c34;
+  margin-bottom: 0;
+}
+
+/* Charts Grid Styles */
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.chart-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .stats-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr; /* Stack charts on smaller screens */
+  }
+
+  .chart-container h3 {
+    font-size: 1.1em;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .stat-box p {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-container {
+    grid-template-columns: 1fr; /* Stack stat boxes on very small screens */
+  }
+  main {
+    padding: 10px;
+  }
+  .chart-container {
+    padding: 15px;
+  }
+}
+
+/* Detailed Data View Styles */
+.detailed-data-view-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Add some space above the table */
+}
+
+.detailed-data-view-container h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.table-responsive-container {
+  overflow-x: auto; /* Allows table to scroll horizontally on small screens */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px; /* Increased padding for better readability */
+  text-align: left;
+  font-size: 0.9em;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive adjustments for the table */
+@media (max-width: 768px) {
+  th,
+  td {
+    padding: 8px;
+    font-size: 0.85em;
+  }
+  .detailed-data-view-container h3 {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 480px) {
+  th,
+  td {
+    padding: 6px;
+    font-size: 0.8em;
+  }
+  /* Stack table on very small screens if necessary, or ensure horizontal scroll works well */
+  /* For a truly stacked table, more complex CSS or JS would be needed to transform rows to blocks */
+}
+
+/* Optional Footer Styles */
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto; /* Pushes footer to the bottom */
+}

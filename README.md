@@ -33,5 +33,14 @@ SuperFarm Dashboard is designed to provide farmers and agricultural analysts wit
 
 ---
 
+## 📸 Project Snapshots
 
+| Dashboard View 1 | Dashboard View 2 |
+|------------------|------------------|
+| ![Snapshot 1](https://postimg.cc/5YM3xStf) | ![Snapshot 2](https://postimg.cc/zyswjFKT) |
 
+| Dashboard View 3 | Dashboard View 4 |
+|------------------|------------------|
+| ![Snapshot 3](https://postimg.cc/k69QrMj4) | ![Snapshot 4](https://postimg.cc/Cnxb1Ppp) |
+
+---

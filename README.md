@@ -37,10 +37,10 @@ SuperFarm Dashboard is designed to provide farmers and agricultural analysts wit
 
 | Dashboard View 1 | Dashboard View 2 |
 |------------------|------------------|
-| ![Snapshot 1](https://postimg.cc/5YM3xStf) | ![Snapshot 2](https://postimg.cc/zyswjFKT) |
+| ![Snapshot 1]([https://postimg.cc/5YM3xStf](https://i.postimg.cc/1t8YrWhV/Screenshot-2025-05-16-101829.png)) | ![Snapshot 2]([https://postimg.cc/zyswjFKT](https://i.postimg.cc/d01WJW0N/Screenshot-2025-05-16-101844.png)) |
 
 | Dashboard View 3 | Dashboard View 4 |
 |------------------|------------------|
-| ![Snapshot 3](https://postimg.cc/k69QrMj4) | ![Snapshot 4](https://postimg.cc/Cnxb1Ppp) |
+| ![Snapshot 3]([https://postimg.cc/k69QrMj4](https://i.postimg.cc/cHtXnrwQ/Screenshot-2025-05-16-101902.png)) | ![Snapshot 4]([https://postimg.cc/Cnxb1Ppp](https://i.postimg.cc/fyxC8pHy/Screenshot-2025-05-16-101915.png)) |
 
 ---
